@@ -1,0 +1,12 @@
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\bin\Debug\netstandard2.0\Example.Infra.Data.deps.json
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\bin\Debug\netstandard2.0\Example.Infra.Data.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\bin\Debug\netstandard2.0\Example.Infra.Data.pdb
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\bin\Debug\netstandard2.0\Example.Domain.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\bin\Debug\netstandard2.0\Example.Domain.pdb
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\obj\Debug\netstandard2.0\Example.Infra.Data.csprojAssemblyReference.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\obj\Debug\netstandard2.0\Example.Infra.Data.AssemblyInfoInputs.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\obj\Debug\netstandard2.0\Example.Infra.Data.AssemblyInfo.cs
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\obj\Debug\netstandard2.0\Example.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\obj\Debug\netstandard2.0\Example.Infra.Data.csproj.CopyComplete
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\obj\Debug\netstandard2.0\Example.Infra.Data.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.Data\obj\Debug\netstandard2.0\Example.Infra.Data.pdb

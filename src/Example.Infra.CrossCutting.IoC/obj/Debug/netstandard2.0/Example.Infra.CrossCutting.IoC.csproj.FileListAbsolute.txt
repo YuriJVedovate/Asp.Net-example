@@ -1,0 +1,16 @@
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.deps.json
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.pdb
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Application.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Domain.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.Data.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Application.pdb
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.Data.pdb
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Domain.pdb
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csproj.CopyComplete
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.pdb

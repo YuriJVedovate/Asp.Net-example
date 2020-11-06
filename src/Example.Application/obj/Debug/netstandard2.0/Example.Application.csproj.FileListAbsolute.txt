@@ -1,0 +1,12 @@
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\bin\Debug\netstandard2.0\Example.Application.deps.json
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\bin\Debug\netstandard2.0\Example.Application.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\bin\Debug\netstandard2.0\Example.Application.pdb
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\bin\Debug\netstandard2.0\Example.Domain.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\bin\Debug\netstandard2.0\Example.Domain.pdb
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.csprojAssemblyReference.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.AssemblyInfoInputs.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.AssemblyInfo.cs
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.csproj.CopyComplete
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.dll
+C:\Projetos\netcore-example-design-patterns\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.pdb

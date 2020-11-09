@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FBC5FIKCjy+zGUzazzVn9xIVK86C9dmS6zIPwJviiv8hEjPAeZeMLL+kLxcoT/op2TPwrLfT7V/1pQTnwriWTQ==",
+  "dgSpecHash": "ud7iwRIwD9wRdMatNS+YCGRYuCCcEHrj99e/YnN7wHsAB/9nKZFz8IWYPW8iuroUoG+5YQstR5h4LW4fzinUjA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Infra.Data\\Example.Infra.Data.csproj",
+  "projectFilePath": "C:\\Projetos\\Asp.Net-example\\src\\Example.Infra.Data\\Example.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yjvedovate\\.nuget\\packages\\abp\\5.12.0\\abp.5.12.0.nupkg.sha512",
     "C:\\Users\\yjvedovate\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",

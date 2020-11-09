@@ -12,7 +12,7 @@ namespace Example.Domain.ExampleAggregate
 {
     public class ExampleDomain : DomainBase
     {
-        public ExampleDomain(int age, string name, int numeroCasa, string rua, string cidade, string estado)
+        public ExampleDomain(int? age, string name, int? numeroCasa, string rua, string cidade, string estado)
         {
             this.Age = age;
             this.Name = name;
@@ -23,15 +23,15 @@ namespace Example.Domain.ExampleAggregate
 
         }
 
-        public int Age { get; set; }
+        public int? Age { get; set; }
         public string Name { get; set; }
-        public int NumeroCasa { get; set; }
+        public int? NumeroCasa { get; set; }
         public string Rua { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }
 
 
-        public static ExampleDomain Create(int age, string name, int numeroCasa, string rua, string cidade, string estado) => new ExampleDomain(age, name, numeroCasa, rua, cidade, estado);
+        public static ExampleDomain Create(int? age, string name, int? numeroCasa, string rua, string cidade, string estado) => new ExampleDomain(age, name, numeroCasa, rua, cidade, estado);
 
         public void Update(int age, string name, int numeroCasa, string rua, string cidade, string estado)
         {

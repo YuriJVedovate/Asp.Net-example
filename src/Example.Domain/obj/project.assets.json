@@ -5054,11 +5054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Domain\\Example.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\Asp.Net-example\\src\\Example.Domain\\Example.Domain.csproj",
       "projectName": "Example.Domain",
-      "projectPath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Domain\\Example.Domain.csproj",
+      "projectPath": "C:\\Projetos\\Asp.Net-example\\src\\Example.Domain\\Example.Domain.csproj",
       "packagesPath": "C:\\Users\\yjvedovate\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\Asp.Net-example\\src\\Example.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yjvedovate\\AppData\\Roaming\\NuGet\\NuGet.Config",

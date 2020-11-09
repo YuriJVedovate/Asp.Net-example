@@ -12,6 +12,7 @@ namespace Example.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+
     public class ExampleController : BaseController
     {
         private readonly IExampleService _exampleService;

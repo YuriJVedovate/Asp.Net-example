@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KsRyCfFW9IkzblXcCwjkaV3tB6vLX7QfIYhQdAaGBaunJ1DLP5ID9E4BmdSjvMwiXfpx6NDJAbNnc4nHVJLI9w==",
+  "dgSpecHash": "iz9odo1oYf61icgQvhmYPdz+GDpr5MoIdFFQY0TjyzMwticaYJrmWuKddZmSu3lm3YFeeRFSNivbJGmYWmfDzg==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.API\\Example.API.csproj",
+  "projectFilePath": "C:\\Projetos\\Asp.Net-example\\src\\Example.API\\Example.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yjvedovate\\.nuget\\packages\\abp\\5.12.0\\abp.5.12.0.nupkg.sha512",
     "C:\\Users\\yjvedovate\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",

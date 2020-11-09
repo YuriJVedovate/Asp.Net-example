@@ -7,9 +7,9 @@ namespace Example.Application.Example.Models.Request
 {
     public class ExampleCreateRequest
     {
-        public int Age { get; set; }
+        public int? Age { get; set; }
         public string Name { get; set; }
-        public int NumeroCasa { get; set; }
+        public int? NumeroCasa { get; set; }
         public string Rua { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }

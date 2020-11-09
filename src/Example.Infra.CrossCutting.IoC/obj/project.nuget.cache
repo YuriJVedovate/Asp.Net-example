@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OSv2W4aGdW4TG3NeaNsYDlo5gePouqY3UuJzGDCuWNu8t54Mm9PYKI+SryZBbeHn43Au+0HTCN5qOXif1itpsw==",
+  "dgSpecHash": "JFgOzmseq2Z8yj+sDt/1D89r5ApPhQQLbHbvaqKGmTCrG4UQ7JNVQz1GNNunwPMx7iHZEPq4khIE9UAcF3TWuw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj",
+  "projectFilePath": "C:\\Projetos\\Asp.Net-example\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yjvedovate\\.nuget\\packages\\abp\\5.12.0\\abp.5.12.0.nupkg.sha512",
     "C:\\Users\\yjvedovate\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",

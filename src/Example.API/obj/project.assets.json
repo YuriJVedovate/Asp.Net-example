@@ -10160,11 +10160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.API\\Example.API.csproj",
+      "projectUniqueName": "C:\\Projetos\\Asp.Net-example\\src\\Example.API\\Example.API.csproj",
       "projectName": "Example.API",
-      "projectPath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.API\\Example.API.csproj",
+      "projectPath": "C:\\Projetos\\Asp.Net-example\\src\\Example.API\\Example.API.csproj",
       "packagesPath": "C:\\Users\\yjvedovate\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.API\\obj\\",
+      "outputPath": "C:\\Projetos\\Asp.Net-example\\src\\Example.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yjvedovate\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10180,11 +10180,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj": {
-              "projectPath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj"
+            "C:\\Projetos\\Asp.Net-example\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Projetos\\Asp.Net-example\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj"
             },
-            "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Infra.Data\\Example.Infra.Data.csproj": {
-              "projectPath": "C:\\Projetos\\netcore-example-design-patterns\\src\\Example.Infra.Data\\Example.Infra.Data.csproj"
+            "C:\\Projetos\\Asp.Net-example\\src\\Example.Infra.Data\\Example.Infra.Data.csproj": {
+              "projectPath": "C:\\Projetos\\Asp.Net-example\\src\\Example.Infra.Data\\Example.Infra.Data.csproj"
             }
           }
         }

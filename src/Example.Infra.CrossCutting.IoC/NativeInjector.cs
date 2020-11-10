@@ -1,5 +1,7 @@
-﻿using Example.Application.Example.Repository;
+﻿using Example.Application.Election.Services;
+using Example.Application.Example.Repository;
 using Example.Application.Example.Services;
+using Example.Domain.ElectionAggregate;
 using Example.Domain.SeedWork;
 using Example.Infra.Data.Repositories;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +20,9 @@ namespace Example.Infra.CrossCutting.IoC
             services.AddScoped<IExampleService, ExampleService>();
             services.AddScoped<INotification, Notification>();
             services.AddScoped<IExampleRepository, ExampleRepository>();
+
+            services.AddScoped<IElectionService, ElectionService>();
+            services.AddScoped<IElectionRepository, ElectionRepository>();
         }
     }
 }

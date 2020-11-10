@@ -14,11 +14,11 @@ C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Exa
 C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.AssemblyInfoInputs.cache
 C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.AssemblyInfo.cs
 C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.csproj.CoreCompileInputs.cache
-C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.dll
-C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.pdb
 C:\Projetos\Asp.Net-example\src\Example.Application\bin\Debug\netstandard2.0\Example.Application.deps.json
 C:\Projetos\Asp.Net-example\src\Example.Application\bin\Debug\netstandard2.0\Example.Application.dll
 C:\Projetos\Asp.Net-example\src\Example.Application\bin\Debug\netstandard2.0\Example.Application.pdb
 C:\Projetos\Asp.Net-example\src\Example.Application\bin\Debug\netstandard2.0\Example.Domain.dll
 C:\Projetos\Asp.Net-example\src\Example.Application\bin\Debug\netstandard2.0\Example.Domain.pdb
 C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.csproj.CopyComplete
+C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.dll
+C:\Projetos\Asp.Net-example\src\Example.Application\obj\Debug\netstandard2.0\Example.Application.pdb

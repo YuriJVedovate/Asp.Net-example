@@ -14,6 +14,10 @@ C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\o
 C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csproj.CopyComplete
 C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.dll
 C:\Projetos\netcore-example-design-patterns\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.pdb
+C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.deps.json
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.dll
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.pdb
@@ -23,10 +27,6 @@ C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstan
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Application.pdb
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Infra.Data.pdb
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Example.Domain.pdb
-C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
-C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
-C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.AssemblyInfo.cs
-C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.csproj.CopyComplete
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.dll
 C:\Projetos\Asp.Net-example\src\Example.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Example.Infra.CrossCutting.IoC.pdb

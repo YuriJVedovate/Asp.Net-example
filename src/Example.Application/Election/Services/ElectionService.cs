@@ -39,6 +39,7 @@ namespace Example.Application.Election.Services
             return response;
         });
 
+        
         public async Task<ElectionGetAllResponse> GetAllAsync() => await ExecuteAsync(async () =>
         {
             var response = new ElectionGetAllResponse();
@@ -55,6 +56,7 @@ namespace Example.Application.Election.Services
                 response.Election = (ElectionDto)banco;
             return response;
         });
+
 
         public async Task<ElectionUpdateResponse> UpdateAsync(int id, ElectionUpdateRequest request) => await ExecuteAsync(async () =>
         {
@@ -77,6 +79,16 @@ namespace Example.Application.Election.Services
             }
             else
                 throw new NotFoundException();
+            return response;
+        });
+
+        public async Task<ElectionDeleteResponse> DeleteAsync(int id) => await ExecuteAsync(async () =>
+        {
+            var response = new ElectionDeleteResponse();
+            var banco = await _electionRepository.GetByIdAsync(id, false).ConfigureAwait(false);
+            if (banco != null)
+                await _electionRepository.DeleteAsync(banco).ConfigureAwait(false);
+
             return response;
         });
     }

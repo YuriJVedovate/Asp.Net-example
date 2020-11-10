@@ -34,5 +34,8 @@ namespace Example.API.Controllers
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAsync([FromRoute] int id, [FromBody] ElectionUpdateRequest request) => Response(await _electionService.UpdateAsync(id, request).ConfigureAwait(false));
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync([FromRoute] int id) => Response(await _electionService.DeleteAsync(id).ConfigureAwait(false));
     }
 }

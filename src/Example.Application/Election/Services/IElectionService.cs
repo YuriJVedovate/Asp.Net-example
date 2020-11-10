@@ -15,6 +15,8 @@ namespace Example.Application.Election.Services
         Task<ElectionGetAllResponse> GetAllAsync();
         Task<ElectionGetOneResponse> GetOneAsync(int id);
         Task<ElectionUpdateResponse> UpdateAsync(int id, ElectionUpdateRequest request);
+        Task<ElectionDeleteResponse> DeleteAsync(int id);
+
     }
 
 }

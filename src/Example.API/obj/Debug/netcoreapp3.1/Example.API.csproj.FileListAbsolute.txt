@@ -128,6 +128,8 @@ C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Castle.Core.
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Castle.Core.AsyncInterceptor.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Castle.Facilities.Logging.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Castle.Windsor.dll
+C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\EntityFramework.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\JetBrains.Annotations.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\MediatR.dll
@@ -181,8 +183,10 @@ C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Swashbuckle.
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\System.CodeDom.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
@@ -196,6 +200,8 @@ C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\win
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
@@ -208,6 +214,7 @@ C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Example.Infr
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Example.Infra.Data.pdb
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Example.Application.pdb
 C:\Projetos\Asp.Net-example\src\Example.API\bin\Debug\netcoreapp3.1\Example.Domain.pdb
+C:\Projetos\Asp.Net-example\src\Example.API\obj\Debug\netcoreapp3.1\Example.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Projetos\Asp.Net-example\src\Example.API\obj\Debug\netcoreapp3.1\Example.API.RazorTargetAssemblyInfo.cache
 C:\Projetos\Asp.Net-example\src\Example.API\obj\Debug\netcoreapp3.1\Example.API.csproj.CopyComplete
 C:\Projetos\Asp.Net-example\src\Example.API\obj\Debug\netcoreapp3.1\staticwebassets\Example.API.StaticWebAssets.Manifest.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ud7iwRIwD9wRdMatNS+YCGRYuCCcEHrj99e/YnN7wHsAB/9nKZFz8IWYPW8iuroUoG+5YQstR5h4LW4fzinUjA==",
+  "dgSpecHash": "H3mjpe785jDPthz6DOR6NFBMpeIG4GHmnGZq1nR8cFItO3/uIFYVzed9PQ2BzAfjnr9A+jvgnecd/Ey9wLyc7Q==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Asp.Net-example\\src\\Example.Infra.Data\\Example.Infra.Data.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\yjvedovate\\.nuget\\packages\\castle.core.asyncinterceptor\\2.0.21-alpha\\castle.core.asyncinterceptor.2.0.21-alpha.nupkg.sha512",
     "C:\\Users\\yjvedovate\\.nuget\\packages\\castle.loggingfacility\\5.0.1\\castle.loggingfacility.5.0.1.nupkg.sha512",
     "C:\\Users\\yjvedovate\\.nuget\\packages\\castle.windsor\\5.0.1\\castle.windsor.5.0.1.nupkg.sha512",
+    "C:\\Users\\yjvedovate\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\yjvedovate\\.nuget\\packages\\fluentvalidation\\9.1.2\\fluentvalidation.9.1.2.nupkg.sha512",
     "C:\\Users\\yjvedovate\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",
     "C:\\Users\\yjvedovate\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

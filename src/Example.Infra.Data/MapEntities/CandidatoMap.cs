@@ -1,5 +1,6 @@
 ﻿using Example.Domain.CandidatoAggregate;
 using Example.Domain.PartidoAggregate;
+using Example.Domain.ViceAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -19,15 +20,22 @@ namespace Example.Infra.Data.MapEntities
             builder.Property(e => e.PartidoId).HasColumnName("PartidoId");
             builder.Property(e => e.Idade).HasColumnName("Idade");
             builder.Property(e => e.Posicao).HasColumnName("Posicao");
-            builder.Property(e => e.Vice).HasColumnName("Vice");
+            builder.Property(e => e.ViceId).HasColumnName("ViceId");
 
             builder.Ignore(e => e.Valid);
             builder.Ignore(e => e.ValidationResult);
 
 
-            builder.HasOne<PartidoDomain>(s => s.Partido)
-                        .WithMany(g => g.Candidatos)
-                        .HasForeignKey(s => s.PartidoId);
+            builder.HasOne<PartidoDomain>(c => c.Partido)
+                   .WithMany(p => p.Candidatos)
+                   .HasForeignKey(c => c.PartidoId);
+
+            builder.HasOne<ViceDomain>(c => c.Vice)
+                   .WithOne(v => v.Prefeito)
+                   .HasForeignKey<CandidatoDomain>(c => c.ViceId);
+
+
+
         }
     }
 }

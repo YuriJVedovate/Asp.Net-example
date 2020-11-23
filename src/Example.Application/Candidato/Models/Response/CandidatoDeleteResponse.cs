@@ -8,6 +8,6 @@ namespace Example.Application.Candidato.Models.Response
 {
     public class CandidatoDeleteResponse : BaseResponse
     {
-        public CandidatoDto Candidato { get; set; }
+        //public CandidatoDto Candidato { get; set; }
     }
 }

@@ -11,6 +11,6 @@ namespace Example.Application.Candidato.Models.Request
         public int PartidoId { get; set; }
         public int Idade { get; set; }
         public string Posicao { get; set; }
-        public string Vice { get; set; }
+        public int ViceId { get; set; }
     }
 }

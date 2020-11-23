@@ -8,6 +8,8 @@ using Example.Domain.SeedWork;
 using Example.Infra.Data.Repositories;
 using Example.Infra.Data.Repositories.Base;
 using Microsoft.Extensions.DependencyInjection;
+using Example.Application.Vice.Services;
+using Example.Domain.ViceAggregate;
 
 namespace Example.Infra.CrossCutting.IoC
 {
@@ -31,6 +33,10 @@ namespace Example.Infra.CrossCutting.IoC
 
             services.AddScoped<IPartidoService, PartidoService>();
             services.AddScoped<IPartidoRepository, PartidoRepository>();
+
+            services.AddScoped<IViceService, ViceService>();
+            services.AddScoped<IViceRepository, ViceRepository>();
+
 
 
         }

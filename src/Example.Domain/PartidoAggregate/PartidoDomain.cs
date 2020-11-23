@@ -1,5 +1,6 @@
 ﻿using Example.Domain.CandidatoAggregate;
 using Example.Domain.SeedWork;
+using Example.Domain.ViceAggregate;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -20,6 +21,11 @@ namespace Example.Domain.PartidoAggregate
         public string Cigla { get; set; }
         public int NumeroEleitoral { get; set; }
         public virtual ICollection<CandidatoDomain> Candidatos { get; set; }
+        public virtual ICollection<ViceDomain> Vices { get; set; }
+
+
+
+
 
         public static PartidoDomain Create(string nome, string cigla, int numeroEleitoral) => new PartidoDomain(nome, cigla, numeroEleitoral);
 

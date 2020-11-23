@@ -11,11 +11,16 @@ namespace Example.Application.Candidato.Models.Dtos
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public PartidoDto Partido { get; set; }
+        public string NomePartido { get; set; }
+        public string CiglaPartido { get; set; }
+        public int NumeroPartido { get; set; }
+
+        //public PartidoDto Partido { get; set; }
         public int Idade { get; set; }
         public string Posicao { get; set; }
-        public string Vice { get; set; }
-
+        public int ViceId { get; set; }
+        public string ViceNome { get; set; }
+        public string VicePartido { get; set; }
 
 
         public static explicit operator CandidatoDto(CandidatoDomain v)
@@ -24,10 +29,14 @@ namespace Example.Application.Candidato.Models.Dtos
             {
                 Id = v.Id,
                 Nome = v.Nome,
-                Partido = (PartidoDto) v.Partido,
+                NomePartido = v.Partido.Nome,
+                CiglaPartido = v.Partido.Cigla,
+                NumeroPartido = v.Partido.NumeroEleitoral,
                 Idade = v.Idade,
                 Posicao = v.Posicao,
-                Vice = v.Vice
+                ViceId = v.Vice.Id,
+                ViceNome = v.Vice.Nome,
+                VicePartido = v.Vice.Partido.Cigla
             };
         }
     }

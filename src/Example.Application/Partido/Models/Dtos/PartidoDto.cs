@@ -14,7 +14,6 @@ namespace Example.Application.Partido.Models.Dtos
         public string Nome { get; set; }
         public string Cigla { get; set; }
         public int NumeroEleitoral { get; set; }
-        public CandidatoDomain Candidato { get; set; }
 
 
         public static explicit operator PartidoDto(PartidoDomain v)
@@ -25,8 +24,6 @@ namespace Example.Application.Partido.Models.Dtos
                 Nome = v.Nome,
                 Cigla = v.Cigla,
                 NumeroEleitoral = v.NumeroEleitoral,
-                Candidato = (CandidatoDomain) v.Candidatos
-
             };
         }
     }

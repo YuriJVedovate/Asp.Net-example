@@ -28,8 +28,6 @@ namespace Example.Domain.CandidatoAggregate
         //public int ViceId { get; set; }
         public virtual ViceDomain Vice { get; set; }
         
-        
-
 
         public static CandidatoDomain Create(string nome, int partidoId, int idade, string posicao, string nomeVice, int partidoIdVice, int idadeVice) => new CandidatoDomain(nome, partidoId, idade, posicao, nomeVice, partidoIdVice, idadeVice);
 

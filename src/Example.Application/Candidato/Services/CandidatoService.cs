@@ -27,7 +27,7 @@ namespace Example.Application.Candidato.Services
         public async Task<CandidatoCreateResponse> CreateAsync(CandidatoCreateRequest request) => await ExecuteAsync(async () =>
         {
             var response = new CandidatoCreateResponse();
-            var obj = CandidatoDomain.Create(request.Nome, request.PartidoId, request.Idade, request.Posicao, request.ViceId);
+            var obj = CandidatoDomain.Create(request.Nome, request.PartidoId, request.Idade, request.Posicao, request.Vice.Nome, request.Vice.PartidoId, request.Vice.Idade);
             obj.Validate(obj, new CandidatoValidator());
             if (!obj.Valid)
             {
@@ -64,7 +64,7 @@ namespace Example.Application.Candidato.Services
             if (Election != null)
             {
                 //Changing property
-                Election.Update(request.Nome, request.PartidoId, request.Idade, request.Posicao, request.ViceId);
+                Election.Update(request.Nome, request.PartidoId, request.Idade, request.Posicao, request.Vice.Nome, request.Vice.PartidoId, request.Vice.Idade);
 
                 //Validate
                 Election.Validate(Election, new CandidatoValidator());

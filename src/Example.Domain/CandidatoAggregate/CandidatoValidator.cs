@@ -13,7 +13,8 @@ namespace Example.Domain.CandidatoAggregate
             RuleFor(x => x.PartidoId).NotEmpty();
             RuleFor(x => x.Idade).NotEmpty();
             RuleFor(x => x.Posicao).NotEmpty().WithMessage("TESTE123");
-            RuleFor(x => x.ViceId).NotEmpty();
+            
+
         }
     }
 }

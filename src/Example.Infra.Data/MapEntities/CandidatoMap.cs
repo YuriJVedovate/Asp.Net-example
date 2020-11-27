@@ -20,7 +20,7 @@ namespace Example.Infra.Data.MapEntities
             builder.Property(e => e.PartidoId).HasColumnName("PartidoId");
             builder.Property(e => e.Idade).HasColumnName("Idade");
             builder.Property(e => e.Posicao).HasColumnName("Posicao");
-            builder.Property(e => e.Vice.Id).HasColumnName("ViceId");
+            builder.Property(e => e.ViceId).HasColumnName("ViceId");
 
             builder.Ignore(e => e.Valid);
             builder.Ignore(e => e.ValidationResult);
@@ -32,10 +32,7 @@ namespace Example.Infra.Data.MapEntities
 
             builder.HasOne<ViceDomain>(c => c.Vice)
                    .WithOne(v => v.Prefeito)
-                   .HasForeignKey<CandidatoDomain>(c => c.Vice.Id);
-
-
-
+                   .HasForeignKey<CandidatoDomain>(c => c.ViceId);
         }
     }
 }

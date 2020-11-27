@@ -27,7 +27,8 @@ namespace Example.Application.Candidato.Services
         public async Task<CandidatoCreateResponse> CreateAsync(CandidatoCreateRequest request) => await ExecuteAsync(async () =>
         {
             var response = new CandidatoCreateResponse();
-            var obj = CandidatoDomain.Create(request.Nome, request.PartidoId, request.Idade, request.Posicao, request.Vice.Nome, request.Vice.PartidoId, request.Vice.Idade);
+            var obj = CandidatoDomain.Create(request.Nome, request.PartidoId, request.Idade, request.Posicao);
+            obj.AddVice(request.Vice.Nome, request.Vice.PartidoId, request.Vice.Idade); 
             obj.Validate(obj, new CandidatoValidator());
             if (!obj.Valid)
             {

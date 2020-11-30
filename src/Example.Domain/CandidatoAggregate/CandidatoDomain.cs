@@ -28,13 +28,15 @@ namespace Example.Domain.CandidatoAggregate
 
         public static CandidatoDomain Create(string nome, int partidoId, int idade, string posicao) => new CandidatoDomain(nome, partidoId, idade, posicao);
 
-        public void Update(string nome, int partidoId, int idade, string posicao, string nomeVice, int partidoIdVice, int idadeVice)
+        public void Update(string nome, int partidoId, int idade, string posicao, int viceId)
         {
             this.Nome = nome;
             this.PartidoId = partidoId;
             this.Idade = idade;
             this.Posicao = posicao;
+            this.ViceId = viceId;
         }
+
         public void AddVice(string nomeVice, int partidoIdVice, int idadeVice)
         {
             this.Vice = ViceDomain.Create(nomeVice, partidoIdVice, idadeVice);

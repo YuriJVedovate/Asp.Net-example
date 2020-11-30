@@ -65,7 +65,7 @@ namespace Example.Application.Candidato.Services
             if (Election != null)
             {
                 //Changing property
-                Election.Update(request.Nome, request.PartidoId, request.Idade, request.Posicao, request.Vice.Nome, request.Vice.PartidoId, request.Vice.Idade);
+                Election.Update(request.Nome, request.PartidoId, request.Idade, request.Posicao, request.ViceId);
 
                 //Validate
                 Election.Validate(Election, new CandidatoValidator());

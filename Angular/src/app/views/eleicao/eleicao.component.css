@@ -1,0 +1,44 @@
+.mat-tab-group {
+    margin-bottom: 48px;
+    padding      : 2%;
+}
+
+.btn-add-candidato {
+    top : 5px;
+    left: 5px;
+}
+
+.cardsCandidatos {
+    padding: 2%;
+}
+
+.example-header-image {
+    background-image: url();
+    background-size : cover;
+}
+
+hr {
+    border: 1px solid #cfd8dc;
+}
+
+.cards {
+    border       : 1px solid #cfd8dc;
+    max-width    : 400px;
+    border-radius: 4px 3px 6px / 2px 4px;
+    margin       : 5px;
+}
+
+.logo-partido{
+    background-size    : cover;
+    background-position: center;
+}
+
+.imagem-candidato , .imagem-partido{
+    width              : 150PX;
+    height             : 150px;
+    margin             : 0 auto;
+    background-size    : cover;
+    background-position: center;
+}
+
+

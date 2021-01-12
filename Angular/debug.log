@@ -1,0 +1,7 @@
+[1218/091643.270:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1218/150008.007:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1218/150008.069:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1218/150008.069:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1218/150008.069:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1218/150008.241:ERROR:exception_snapshot_win.cc(99)] thread ID 13560 not found in process
+[1223/090507.831:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

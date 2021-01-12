@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>Cadastro de Partido</h1>
+<div mat-dialog-content>
+  <form class="example-form" [formGroup]="partidoForm">
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Nome partido</mat-label>
+      <input matInput formControlName="nome" name="nome">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Sigla Partido</mat-label>
+      <input matInput formControlName="sigla" name="sigla">
+    </mat-form-field>
+    
+    <mat-form-field class="example-full-width">
+      <mat-label>Numero eleitoral</mat-label>
+      <input matInput formControlName="numeroEleitoral" name="numeroEleitoral">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Foto</mat-label>
+      <input matInput formControlName="foto" name="foto">
+    </mat-form-field>
+
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="cancelar()">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="criarPartido()">Cadastrar</button>
+</div>

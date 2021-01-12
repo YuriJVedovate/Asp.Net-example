@@ -1,0 +1,19 @@
+.toolbar {
+  padding: 1% 0% 1% 4%;
+  font-size: 2rem;
+  color: #f3ffe9;
+  background: rgb(9, 0, 166);
+  background: linear-gradient(90deg, rgba(9, 0, 166, 1) 0%, rgba(0, 134, 255, 1) 100%);
+}
+
+.toolbar h1 {
+  font-size: 2rem;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}

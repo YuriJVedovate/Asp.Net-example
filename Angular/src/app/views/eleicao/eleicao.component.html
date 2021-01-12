@@ -1,0 +1,111 @@
+<mat-tab-group mat-align-tabs="start">
+    <mat-tab label="CANDIDATOS">
+        <mat-progress-bar *ngIf="!loadCandidados" mode="indeterminate"></mat-progress-bar>
+        <div>
+            <button mat-raised-button class="btn-add-candidato" (click)="addCandidato()" color="primary">
+                <mat-icon>add</mat-icon> Candidato
+            </button>
+        </div>
+        <div class="cardsCandidatos" fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+
+            <ng-container *ngFor="let candidato of candidatos">
+
+                <mat-card fxFlex="0 1 calc(30% - 11px)" fxFlex.lt-md="0 1 calc(50% - 11px)" fxFlex.lt-sm="100%"
+                    class="cards">
+                    <mat-card-header>
+                        <div mat-card-avatar class="logo-partido"
+                            style="background-image: url({{candidato.partido.foto}});"></div>
+                        <mat-card-title>{{candidato.partido.nome}}</mat-card-title>
+                        <mat-card-subtitle>{{candidato.partido.sigla}}</mat-card-subtitle>
+                    </mat-card-header>
+                    <h2>Numero eleitoral: {{candidato.partido.numeroEleitoral}}</h2>
+                    <hr>
+
+                    <mat-card-content>
+                        <div fxLayout="row" fxLayoutAlign="space-between start">
+                            <div>
+                                <mat-card-title>{{candidato.nome}}</mat-card-title>
+                                <mat-card-subtitle>{{candidato.posicao}}</mat-card-subtitle>
+                            </div>
+
+                            <div>
+                                <span>Idade: {{candidato.idade}}</span>
+                            </div>
+                        </div>
+                        <div mat-card-avatar class="imagem-candidato"
+                            style="background-image: url({{candidato.foto}});"></div>
+                    </mat-card-content>
+                    <mat-card-content>
+                        <div fxLayout="row" fxLayoutAlign="space-between start">
+                            <div>
+                                <mat-card-title>{{candidato.vice.nome}}</mat-card-title>
+                                <mat-card-subtitle>Vice</mat-card-subtitle>
+                            </div>
+
+                            <div>
+                                <span>Idade: {{candidato.vice.idade}}</span>
+                            </div>
+                        </div>
+                        <div mat-card-avatar class="imagem-candidato"
+                            style="background-image: url({{candidato.vice.foto}});"></div>
+                    </mat-card-content>
+                    <mat-card-actions>
+
+                        <button mat-button (click)="deleteCandidato(candidato.id)">
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                        <button mat-button>
+                            <mat-icon>update</mat-icon>
+                        </button>
+                    </mat-card-actions>
+                </mat-card>
+
+            </ng-container>
+
+        </div>
+    </mat-tab>
+
+
+    <mat-tab label="PARTIDO">
+        <mat-progress-bar *ngIf="!loadPartidos" mode="indeterminate"></mat-progress-bar>
+        <div>
+            <button mat-raised-button class="btn-add-candidato" (click)="addPartido()" color="primary">
+                <mat-icon>add</mat-icon> Partido
+            </button>
+        </div>
+        <div class="cardsCandidatos" fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+
+            <ng-container *ngFor="let partido of partidos">
+
+                <mat-card fxFlex="0 1 calc(30% - 11px)" fxFlex.lt-md="0 1 calc(50% - 11px)" fxFlex.lt-sm="100%"
+                    class="cards">
+                    <h4>Partido</h4>
+                    <mat-card-header>
+                        <div mat-card-avatar class="logo-partido" style="background-image: url({{partido.foto}});">
+                        </div>
+                        <mat-card-title>{{partido.nome}}</mat-card-title>
+                        <mat-card-subtitle>{{partido.sigla}}</mat-card-subtitle>
+                    </mat-card-header>
+                    <h2>Numero eleitoral: {{partido.numeroEleitoral}}</h2>
+                    <hr>
+
+                    <mat-card-content>
+                        <div mat-card-avatar class="imagem-partido" style="background-image: url({{partido.foto}});">
+                        </div>
+                    </mat-card-content>
+
+                    <mat-card-actions>
+                        <button mat-button >
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                        <button mat-button>
+                            <mat-icon>update</mat-icon>
+                        </button>
+                    </mat-card-actions>
+                </mat-card>
+
+            </ng-container>
+
+        </div>
+    </mat-tab>
+</mat-tab-group>

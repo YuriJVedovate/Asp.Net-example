@@ -1,0 +1,50 @@
+<h1 mat-dialog-title>Cadastro de Candidato</h1>
+<div mat-dialog-content>
+  <form class="example-form" [formGroup]="candidatoForm">
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Nome candidato</mat-label>
+      <input matInput formControlName="nome" name="nome">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Id Partido</mat-label>
+      <input matInput type="number" formControlName="partidoId" name="partidoId">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Idade</mat-label>
+      <input matInput type="number" formControlName="idade" name="idade">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Posição</mat-label>
+      <input matInput formControlName="posicao" name="posicao">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Foto</mat-label>
+      <input matInput formControlName="foto" name="foto">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Nome Vice</mat-label>
+      <input matInput formControlName="viceNome" name="viceNome">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Foto Vice</mat-label>
+      <input matInput formControlName="viceFoto" name="viceFoto">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Idade Vice</mat-label>
+      <input matInput type="number" formControlName="viceIdade" name="viceIdade">
+    </mat-form-field>
+
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="cancelar()">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="criarCandidato()">Cadastrar</button>
+</div>

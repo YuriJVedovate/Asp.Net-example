@@ -2,6 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
+import { Partido } from '../models/Partido';
 import { Partidos } from '../models/Partidos';
 import { PartidoCreateRequest } from '../models/request/PartidoCreateRequest';
 
@@ -27,5 +28,7 @@ export class PartidosService {
     return this.http.post<PartidoCreateRequest>(this.baseUrl, partidoRequest, this.httpOptions);
   }
 
-  
+  public deletePartido(id: number): Observable<Partido>{
+    return this.http.delete<Partido>(`${this.baseUrl}/${id}`);
+  }
 }

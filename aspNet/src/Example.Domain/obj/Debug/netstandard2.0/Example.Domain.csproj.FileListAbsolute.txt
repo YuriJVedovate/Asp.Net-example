@@ -34,3 +34,12 @@ C:\Projetos\Projeto Example\Asp.Net-example\src\Example.Domain\obj\Debug\netstan
 C:\Projetos\Projeto Example\Asp.Net-example\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.csproj.CoreCompileInputs.cache
 C:\Projetos\Projeto Example\Asp.Net-example\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.dll
 C:\Projetos\Projeto Example\Asp.Net-example\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.pdb
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\bin\Debug\netstandard2.0\Example.Domain.deps.json
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\bin\Debug\netstandard2.0\Example.Domain.dll
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\bin\Debug\netstandard2.0\Example.Domain.pdb
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.csprojAssemblyReference.cache
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.AssemblyInfo.cs
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.dll
+C:\Projetos\Projeto Example\Asp.Net-example\aspNet\src\Example.Domain\obj\Debug\netstandard2.0\Example.Domain.pdb

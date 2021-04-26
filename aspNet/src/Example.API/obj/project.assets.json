@@ -10397,10 +10397,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/CSCRZ/ACSDEVOPS/_packaging/csonline-feed/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Projetos\\Projeto Example\\Asp.Net-example\\aspNet\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj": {
               "projectPath": "C:\\Projetos\\Projeto Example\\Asp.Net-example\\aspNet\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj"
@@ -10419,6 +10421,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -10467,7 +10470,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },

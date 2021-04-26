@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Ec3UMMudwnuXm+tTiKMiw6FwBUuJOXCTKJGT9oif4yuT9vI5lzslXb19WN9Ve/45/VWtNHdW9waXw4+jd5+09g==",
+=======
+  "dgSpecHash": "an6FDGe+UAwAOglcaZeqroL2ZjEy1jfneMmejZvRhP+VlgaGD27LeMsRI+ywPq9KPeAreES8LaOqw1fxwxDTXw==",
+>>>>>>> 9ee7f1c79bcf49b493bcba14d6597291db3ffe28
   "success": true,
   "projectFilePath": "C:\\Projetos\\Projeto Example\\Asp.Net-example\\aspNet\\src\\Example.Application\\Example.Application.csproj",
   "expectedPackageFiles": [

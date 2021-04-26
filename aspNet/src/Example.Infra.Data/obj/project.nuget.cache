@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "vqpCnopVt82nWDzkEz1uF0ZZpc9dbtBwU4M/SikfXoWA4/wnOumDNRPdxe5fPisT2euAfv2pteGZrc89wf6+RQ==",
+=======
+  "dgSpecHash": "SnGfB6dR8FDBIGtlk5pCIYVKchb/w/TBti24pj/J5mbQFxmVGUk/Ta9nR4WRY1TNwwb4i4i4PH6IJPu15erd5Q==",
+>>>>>>> 9ee7f1c79bcf49b493bcba14d6597291db3ffe28
   "success": true,
   "projectFilePath": "C:\\Projetos\\Projeto Example\\Asp.Net-example\\aspNet\\src\\Example.Infra.Data\\Example.Infra.Data.csproj",
   "expectedPackageFiles": [

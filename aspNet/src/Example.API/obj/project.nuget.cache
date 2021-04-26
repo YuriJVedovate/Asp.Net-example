@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0DBU9JaQgpOsW+owRjLiS0L6lj1++hBmojYFCygvJ0e3SdvgxofRuGdPyhGD/KCCq0sy+ZZr7n1Hxebsy95qkw==",
+=======
+  "dgSpecHash": "1s32TSEf6ZrnAtEGufiR4ifCoMcNsrBOKkIynfFP7i3nDCrHeQ1BGbitQNnUuwMmnaxUJs04ooQ41P4conClig==",
+>>>>>>> 9ee7f1c79bcf49b493bcba14d6597291db3ffe28
   "success": true,
   "projectFilePath": "C:\\Projetos\\Projeto Example\\Asp.Net-example\\aspNet\\src\\Example.API\\Example.API.csproj",
   "expectedPackageFiles": [

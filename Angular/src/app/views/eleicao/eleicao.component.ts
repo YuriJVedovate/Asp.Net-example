@@ -7,6 +7,7 @@ import { PartidosService } from 'src/app/services/partidos.service';
 import { DialogoCandidatoComponent } from '../dialogo/dialogo-create-candidato/dialogo-candidato.component';
 import { DialogoPartidoComponent } from '../dialogo/dialogo-create-partido/dialogo-partido.component';
 import { DialogoDeleteCandidatoComponent } from '../dialogo/dialogo-delete-candidato/dialogo-delete-candidato.component';
+import { DialogoDeletePartidoComponent } from '../dialogo/dialogo-delete-partido/dialogo-delete-partido.component';
 
 @Component({
   selector: 'app-eleicao',
@@ -51,8 +52,6 @@ export class EleicaoComponent implements OnInit {
   }
 
   deleteCandidato(id: number){
-    console.log(id);
-
     const dialogRef = this.dialog.open(DialogoDeleteCandidatoComponent, {
       minWidth: '300px',
     });
@@ -60,6 +59,22 @@ export class EleicaoComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
       if(result){
         this.candidatosService.deleteCandidato(id).subscribe(result =>{
+          window.location.reload();
+        });
+      }
+      console.log('The dialog was closed');
+    });
+
+  }
+
+  deletePartido(id: number){
+    const dialogRef = this.dialog.open(DialogoDeletePartidoComponent, {
+      minWidth: '300px',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      if(result){
+        this.partidosService.deletePartido(id).subscribe(result =>{
           window.location.reload();
         });
       }

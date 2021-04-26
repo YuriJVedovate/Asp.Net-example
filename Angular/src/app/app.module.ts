@@ -23,6 +23,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { DialogoPartidoComponent } from './views/dialogo/dialogo-create-partido/dialogo-partido.component';
 import { DialogoDeleteCandidatoComponent } from './views/dialogo/dialogo-delete-candidato/dialogo-delete-candidato.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { DialogoDeletePartidoComponent } from './views/dialogo/dialogo-delete-partido/dialogo-delete-partido.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     DialogoCandidatoComponent,
     DialogoPartidoComponent,
     DialogoDeleteCandidatoComponent,
+    DialogoDeletePartidoComponent,
   ],
   imports: [
     BrowserModule,

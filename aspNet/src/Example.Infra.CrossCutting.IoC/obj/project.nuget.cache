@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1gaK9QPYJjkqRr9nEfg6xwsj1Njm98C3bOEQAcIf4Jza6q4nZMXK8kqnm3Jwi6mBz0vHYMzU18s3xFGmS+qBCw==",
+=======
+  "dgSpecHash": "N8afzZTq8Kup47TVorvjaGiM7obpFDGW4hcrQd3OsRcNbFyRuHNH7k2BdtLii3iX2jhjSRcxboiSUQuR2DKunQ==",
+>>>>>>> 9ee7f1c79bcf49b493bcba14d6597291db3ffe28
   "success": true,
   "projectFilePath": "C:\\Projetos\\Projeto Example\\Asp.Net-example\\aspNet\\src\\Example.Infra.CrossCutting.IoC\\Example.Infra.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
